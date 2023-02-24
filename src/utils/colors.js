@@ -1,0 +1,16 @@
+export const colors = {
+  white: '#fff',
+  darkBlue: '#252250',
+  lightBlue: '#2e7d32',
+  lightGray: '#efefef',
+  gray: '#c4c4c4',
+  darkGray: '#2e2e2e',
+  red: '#ff0000',
+  green: '#00ff00',
+  blue: '#0000ff',
+  yellow: '#ffff00',
+  orange: '#ffa500',
+  purple: '#800080',
+  // progressBar: '#2e7d32',
+  progressBar: '#5E84E2',
+};
