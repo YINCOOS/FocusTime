@@ -48,7 +48,7 @@ export const Timer = ({focusSubject, clearSubject, onTimerEnd}) => {
           <Text style={styles.task}>{focusSubject}</Text>
         </View>
       </View>
-      <View style={{paddingTop: spacing.md}}>
+      <View style={{paddingTop: spacing.xl}}>
         <ProgressBar
           progress={progress}
           color={colors.progressBar}
@@ -66,7 +66,7 @@ export const Timer = ({focusSubject, clearSubject, onTimerEnd}) => {
         )}
       </View>
       <View style={styles.clearSubjectWrapper}>
-        <RoundedButton title="Clear" size={50} onPress={clearSubject} />
+        <RoundedButton title="Clear" size={60} onPress={clearSubject} />
       </View>
     </View>
   );

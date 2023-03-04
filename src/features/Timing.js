@@ -1,6 +1,7 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
 import { RoundedButton } from "../components/RoundedButton";
+import { spacing } from "../utils/sizes";
 
 export const Timing = ({ onChangeTime }) => {
     return (
@@ -22,5 +23,6 @@ const styles = StyleSheet.create({
     timingButton: {
         flex: 1,
         alignItems: "center",
+        // paddingBottom: spacing.lg,
     },
 });
