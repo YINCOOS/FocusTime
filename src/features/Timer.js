@@ -80,6 +80,7 @@ const styles = StyleSheet.create({
     flex: 0.4,
     alignItems: 'center',
     justifyContent: 'center',
+    paddingTop: spacing.sm,
   },
   buttonWrapper: {
     flex: 0.3,
@@ -102,5 +103,6 @@ const styles = StyleSheet.create({
   clearSubjectWrapper: {
     flexDirection: 'row',
     justifyContent: 'center',
+    marginBottom: spacing.md,
   },
 });
